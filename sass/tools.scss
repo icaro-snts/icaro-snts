@@ -1,0 +1,28 @@
+// Create a diagonal content and reset it
+@mixin diagonal-left
+{
+    transform:skew(0deg,$d-left);
+    -ms-transform:skew(0deg,$d-left); /* IE 9 */
+    -webkit-transform:skew(0deg,$d-left-webkit); /* Safari and Chrome */
+}
+
+@mixin diagonal-left-reset
+{
+  transform:skew(0deg,$d-right);
+  -ms-transform:skew(0deg,$d-right); /* IE 9 */
+  -webkit-transform:skew(0deg,$d-right-webkit); /* Safari and Chrome */
+}
+
+@mixin diagonal-right
+{
+  transform:skew(0deg,$d-right);
+  -ms-transform:skew(0deg,$d-right); /* IE 9 */
+  -webkit-transform:skew(0deg,$d-right-webkit); /* Safari and Chrome */
+}
+
+@mixin diagonal-right-reset
+{
+    transform:skew(0deg,$d-left);
+    -ms-transform:skew(0deg,$d-left); /* IE 9 */
+    -webkit-transform:skew(0deg,$d-left-webkit); /* Safari and Chrome */
+}

@@ -1,0 +1,56 @@
+footer
+{
+  background-color: #101010;
+
+  .copyright
+  {
+    color: $secundarycolor;
+    text-align: right;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .copymsg
+    {
+      display: inline-block;
+    }
+
+    .developed
+    {
+      font-family: "Open Sans Light";
+      font-size: 14px;
+
+      margin: 0;
+
+      @media (min-width: 995px)
+      {
+        font-size: 16px;
+      }
+
+      .developer
+      {
+        color: $secundarycolor;
+        font-family: "Open Sans Bold";
+      }
+    }
+
+    .rights
+    {
+      text-transform: uppercase;
+      font-family: "Open Sans Regular";
+      font-size: 10px;
+
+      line-height: 1;
+      margin: 0;
+    }
+
+    .smile
+    {
+      display: inline-block;
+      float: right;
+      font-size: 23px;
+      line-height: 1.2;
+      margin-left: 8px;
+    }
+  }
+}

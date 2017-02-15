@@ -1,0 +1,68 @@
+// Colors
+/*
+  (1) #26232d
+  (2) #2c3e50
+  (3) #000
+*/
+$primarycolor: #26232d;
+/*
+  Golden #e8ea27
+  Red    #e74c3c
+  Green  #2ecc71
+  Blue   #3498db
+  White  #111
+*/
+$secundarycolor: #e8ea27;
+$border-secundarycolor: #91921b;
+
+// Diagonal variables
+$d-left: 25deg;
+$d-left-webkit: 2.5deg;
+$d-right: -25deg;
+$d-right-webkit: -2.5deg;
+// Fonts
+@font-face
+{
+    font-family: "Open Sans Light";
+    src: url(fonts/open-sans/OpenSans-Light.ttf);
+}
+
+@font-face
+{
+    font-family: "Open Sans Regular";
+    src: url(fonts/open-sans/OpenSans-Regular.ttf);
+}
+
+@font-face
+{
+    font-family: "Open Sans Bold";
+    src: url(fonts/open-sans/OpenSans-Bold.ttf);
+}
+
+@font-face
+{
+    font-family: "Oswald Regular";
+    src: url(fonts/oswald/Oswald-Regular.ttf);
+}
+
+@font-face
+{
+    font-family: "Oswald Bold";
+    src: url(fonts/oswald/Oswald-Bold.ttf);
+}
+
+@font-face
+{
+    font-family: "Source Code";
+    src: url(fonts/source-code/SourceCodePro-Regular.otf);
+}
+
+@font-face
+{
+    font-family: "Icomoon";
+    src:  url('fonts/icomoon/Icomoon.eot?aaukvx');
+    src:  url('fonts/icomoon/Icomoon.eot?aaukvx#iefix') format('embedded-opentype'),
+      url('fonts/icomoon/Icomoon.ttf?aaukvx') format('truetype'),
+      url('fonts/icomoon/Icomoon.woff?aaukvx') format('woff'),
+      url('fonts/icomoon/Icomoon.svg?aaukvx#Icomoon') format('svg');
+}

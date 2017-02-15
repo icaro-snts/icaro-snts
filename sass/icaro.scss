@@ -1,0 +1,18 @@
+// frameworks
+@import "twitter-bootstrap/_bootstrap";
+@import "font-awesome/_font-awesome";
+// general
+@import "settings";
+@import "tools";
+@import "generic";
+@import "base";
+
+// partials
+@import "partials/_header";
+@import "partials/_about-myself";
+@import "partials/_where-i-went";
+@import "partials/_portfolio";
+@import "partials/_contact";
+@import "partials/_footer";
+@import "partials/_jobmodal";
+@import "Partials/_type.scss";

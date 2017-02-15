@@ -1,0 +1,149 @@
+.about-myself
+{
+  position: relative;
+
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  margin-top: -48px;
+
+  @include diagonal-left;
+  z-index: 10;
+
+  background-color: $secundarycolor;
+
+  .normalize
+  {
+    @include diagonal-right;
+
+    .avatar
+    {
+      position: absolute;
+      top: -190px;
+      left: 50%;
+      transform: translateX(-50%);
+
+      .image
+      {
+        border: 7px solid $secundarycolor;
+        border-radius: 50%;
+      }
+    }
+
+    .if-you-are-looking-at-this
+    {
+      position: absolute;
+      top: -180px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-left: 169px;
+
+      .contact-me
+      {
+        font-family: "Source Code";
+        font-size: 14px;
+        color: $secundarycolor;
+
+        .featured
+        {
+          color: white;
+          font-weight: 700;
+        }
+      }
+
+      @media (max-width: 995px)
+      {
+        display: none;
+      }
+    }
+
+    .title
+    {
+      text-align: center;
+
+      @media (min-width: 995px)
+      {
+          text-align: left;
+          padding-left: 72px;
+      }
+    }
+
+    .list
+    {
+      .item
+      {
+        position: relative;
+        margin-top: 30px;
+        .text
+        {
+          display: inline-block;
+          padding-left: 55px;
+          padding-right: 45px;
+
+          font-family: "Open Sans Regular";
+          font-size: 16px;
+          // text-align: justify;
+          text-transform: uppercase;
+          color: $primarycolor;
+        }
+      }
+    }
+
+    .features
+    {
+      @media (min-width: 995px)
+      {
+          padding-left: 4%;
+      }
+
+      .item
+      {
+        .subtitle
+        {
+          font-family: "Open Sans Regular";
+          font-size: 22px;
+          text-transform: uppercase;
+
+          padding-left: 55px;
+          padding-top: 5.5px;
+
+          .featured
+          {
+            font-family:  "Open Sans Bold";
+          }
+        }
+
+        .technologies
+        {
+          margin-top: 20px;
+          padding-left: 55px;
+
+          .icon
+          {
+            margin-right: 15px;
+            font-size: 35px;
+            line-height: 1.5;
+          }
+        }
+
+        .more-information
+        {
+          padding-left: 55px;
+
+          font-family: "Open Sans Bold";
+          color: $primarycolor;
+          text-transform: uppercase;
+
+          transition: .5s;
+
+          &:hover
+          {
+            opacity: .3;
+            transition: .5s;
+          }
+        }
+      }
+    }
+  }
+}
