@@ -76,7 +76,6 @@
   &.move-down::before { content: "\ea47"; }
   &.menu::before { content: "\e9bd"; }
   &.read-more::before { content: "\e9cf"; }
-  &.heart::before { content: "\e9da"; }
   &.directional::before { content: "\e900";}
   &.tab::before { content: "\ea45"; }
   &.mail::before { content: "\ea84"; }
@@ -87,6 +86,20 @@
   &.instagram::before { content: "\ea92"; }
   &.whatsapp::before { content: "\ea93"; }
   &.spotify::before {  content: "\ea94"; }
+
+  &.heart
+  {
+    @media (max-width: 768px)
+    {
+      font-size: 18px;
+      line-height: 0;
+    }
+
+    &::before
+    {
+      content: "\e9da";
+    }
+  }
 }
 
 @keyframes animationFadeInFadeOut
