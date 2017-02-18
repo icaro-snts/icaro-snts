@@ -1,0 +1,7 @@
+# Exclude sass/dependences
+sass/*
+.sass-cache/*
+style.css.map
+
+# Exclude past website
+antigo-provisorio/*
