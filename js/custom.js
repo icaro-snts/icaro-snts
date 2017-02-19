@@ -15,9 +15,14 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 // Dynimic Modal
 $(".job-modal").on("click", function() {
   $("#job-modal-image").attr("src", $(this).data("image"));
+  console.log($(this).data("image-scroll"));
   if($(this).data("image-scroll"))
   {
     $("#scroll-indicator").removeClass("hidden").addClass("scroll-indicator");
+  }
+  else
+  {
+    $("#scroll-indicator").removeClass("scroll-indicator").addClass("hidden");
   }
 
   $("#job-modal-title").html($(this).data("title"));

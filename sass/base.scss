@@ -73,19 +73,19 @@
   text-transform: none;
   line-height: 1;
 
-  &.move-down::before { content: "\ea47"; }
-  &.menu::before { content: "\e9bd"; }
-  &.read-more::before { content: "\e9cf"; }
-  &.directional::before { content: "\e900";}
-  &.tab::before { content: "\ea45"; }
-  &.mail::before { content: "\ea84"; }
-  &.facebook::before { content: "\ea91"; }
+  &.move-down::before     { content: "\ea47"; }
+  &.menu::before          { content: "\e9bd"; }
+  &.read-more::before     { content: "\e9cf"; }
+  &.directional::before   { content: "\e900"; }
+  &.tab::before           { content: "\ea45"; }
+  &.mail::before          { content: "\ea84"; }
+  &.facebook::before      { content: "\ea91"; }
   &.facebook-light:before { content: "\ea90"; }
-  &.twitter:before { content: "\ea96"; }
-  &.google-plus:before { content: "\ea8b"; }
-  &.instagram::before { content: "\ea92"; }
-  &.whatsapp::before { content: "\ea93"; }
-  &.spotify::before {  content: "\ea94"; }
+  &.twitter:before        { content: "\ea96"; }
+  &.google-plus:before    { content: "\ea8b"; }
+  &.instagram::before     { content: "\ea92"; }
+  &.whatsapp::before      { content: "\ea93"; }
+  &.spotify::before       { content: "\ea94"; }
 
   &.heart
   {
@@ -128,8 +128,8 @@
 }
 
 .animate-fadeIn-fadeOut {
-     -webkit-animation: animationFadeInFadeOut 2s infinite;
-   -moz-animation: animationFadeInFadeOut 2s infinite;
-   -o-animation: animationFadeInFadeOut 2s infinite;
-    animation: animationFadeInFadeOut 2s infinite;
+  -webkit-animation: animationFadeInFadeOut 2s infinite;
+     -moz-animation: animationFadeInFadeOut 2s infinite;
+       -o-animation: animationFadeInFadeOut 2s infinite;
+          animation: animationFadeInFadeOut 2s infinite;
 }
